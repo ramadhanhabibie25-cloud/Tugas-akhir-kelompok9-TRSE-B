@@ -6,7 +6,7 @@ using namespace std;
 
 void tampilkanPenjelasanZBB() {
     const vector<string> hari = {
-        "Senin", "Selasa", "Rabu", "Kamis", 
+        "Senin", "Selasa", "Rabu", "Kamis",
         "Jumat", "Sabtu", "Minggu"
     };
 
@@ -15,7 +15,7 @@ void tampilkanPenjelasanZBB() {
     cout << "                   (Metode: Zero-Based Budgeting / ZBB)\n";
     cout << "=======================================================================\n\n";
 
-     cout << "SELAMAT DATANG DI PROGRAM KEUANGAN\n";
+    cout << "SELAMAT DATANG DI PROGRAM KEUANGAN\n";
     cout << "ZERO BASED BUDGETING - KELOMPOK 9" <<endl;
     cout << "\nTekan ENTER untuk melanjutkan...";
     cin.get();
@@ -46,7 +46,7 @@ void tampilkanPenjelasanZBB() {
 
 int main() {
     char mulai;
-    
+
     do {
         tampilkanPenjelasanZBB();
 
@@ -58,10 +58,10 @@ int main() {
             return 0;
         }
 
-        system("clear || cls"); 
+        system("clear || cls");
 
         const vector<string> hari = {
-            "Senin", "Selasa", "Rabu", "Kamis", 
+            "Senin", "Selasa", "Rabu", "Kamis",
             "Jumat", "Sabtu", "Minggu"
         };
 
@@ -69,7 +69,7 @@ int main() {
         double totalUang;
 
         cout << "=======================================================================\n";
-        cout << "                 INPUT PENGELUARAN MINGGUAN ANDA\n";
+        cout << "              INPUT PENGELUARAN MINGGUAN ANDA\n";
         cout << "=======================================================================\n\n";
 
         cout << "Silahkan masukkan total uang yang anda siapkan untuk seminggu: ";
@@ -82,7 +82,7 @@ int main() {
             cin >> pengeluaran[i];
         }
 
-        
+
         double idealPerHari = totalUang / 7.0;
 
         system("clear || cls");
@@ -93,7 +93,7 @@ int main() {
 
         cout << left << setw(12) << "Hari"
              << setw(20) << "Pengeluaran Anda"
-             << setw(25) << "Alokasi Ideal (ZBB)" 
+             << setw(25) << "Alokasi Ideal (ZBB)"
              << setw(20) << "Status" << endl;
         cout << "-----------------------------------------------------------------------\n";
 
