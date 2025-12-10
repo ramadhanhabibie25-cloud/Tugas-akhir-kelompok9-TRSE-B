@@ -15,7 +15,7 @@ void tampilkanPenjelasanZBB() {
     cout << "                   (Metode: Zero-Based Budgeting / ZBB)\n";
     cout << "=======================================================================\n\n";
 
-     cout << "SELAMAT DATANG DI PROGRAM KEUANGAN\n";
+    cout << "SELAMAT DATANG DI PROGRAM KEUANGAN\n";
     cout << "ZERO BASED BUDGETING - KELOMPOK 9" <<endl;
     cout << "\nTekan ENTER untuk melanjutkan...";
     cin.get();
@@ -69,7 +69,7 @@ int main() {
         double totalUang;
 
         cout << "=======================================================================\n";
-        cout << "                 INPUT PENGELUARAN MINGGUAN ANDA\n";
+        cout << "                   INPUT PENGELUARAN MINGGUAN ANDA\n";
         cout << "=======================================================================\n\n";
 
         cout << "Silahkan masukkan total uang yang anda siapkan untuk seminggu: ";
@@ -132,5 +132,11 @@ int main() {
 
     } while (toupper(mulai) == 'Y');
 
+    cout << "\n========================================\n";
+    cout << "   Program Zero Based Budgeting Selesai  \n";
+    cout << "========================================\n";
     cout << "Terima kasih telah menggunakan program ini!\n";
+    cout << "Kelola uangmu dengan bijak, setiap rupiah punya tujuan.\n";
+    cout << "========================================\n";
+
 }
